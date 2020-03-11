@@ -4,7 +4,8 @@
   "description": "Capital is shit. Dump it into the shithole.",
   "main": "index.js",
   "scripts": {
-    "test": "bin/test"
+    "test": "bin/test",
+    "tailwind": "postcss css/tailwind.pcss -o www/css/app.css"
   },
   "repository": {
     "type": "git",
